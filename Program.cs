@@ -16,7 +16,7 @@ namespace BasicThread
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new thread_01());
+            Application.Run(new frmTrackThread());
         }
     }
 }

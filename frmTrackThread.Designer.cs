@@ -1,6 +1,6 @@
 ﻿namespace BasicThread
 {
-    partial class thread_01
+    partial class frmTrackThread
     {
         /// <summary>
         /// Required designer variable.

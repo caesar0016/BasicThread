@@ -9,21 +9,30 @@ namespace BasicThread
 {
     internal class MyThreadClass
     {
-        public static void thread1()
-        {
+        public static void Thread1() {
 
-            for (int i = 0; i < 6; i++)
+            for (int loopCount = 0; loopCount <= 2; loopCount++)
             {
 
-                Thread thread1;
-                thread1 = Thread.CurrentThread;
-                Console.WriteLine("Name of the Thread: " + thread1.Name + " = " + i);
-                Thread.Sleep(1500);
+                Thread thread = Thread.CurrentThread;
+                Console.WriteLine("Name of Thread: " + thread.Name + " = " + loopCount);
+                Thread.Sleep(500);
 
+            }
+        }
+
+        public static void Thread2()
+        {
+            for (int loopCount = 0; loopCount < 6; loopCount++)
+            {
+
+                Thread thread = Thread.CurrentThread;
+                Console.WriteLine("Name of Thread: " + thread.Name + " = " + loopCount);
+                Thread.Sleep(1500);
 
             }
 
-
         }
+
     }
 }

@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="thread_01.cs">
+    <Compile Include="frmTrackThread.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="thread_01.Designer.cs">
-      <DependentUpon>thread_01.cs</DependentUpon>
+    <Compile Include="frmTrackThread.Designer.cs">
+      <DependentUpon>frmTrackThread.cs</DependentUpon>
     </Compile>
     <Compile Include="MyThreadClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="thread_01.resx">
-      <DependentUpon>thread_01.cs</DependentUpon>
+    <EmbeddedResource Include="frmTrackThread.resx">
+      <DependentUpon>frmTrackThread.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
